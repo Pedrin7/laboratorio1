@@ -17,6 +17,8 @@ public class Principal {
             double xAleatorio = random.nextDouble() * 100.00;
             double yAleatorio = random.nextDouble() * 100.00;
 
+            // caso a variavel criarCirculo, que recebera ou TRUE ou FALSE der TRUE, criará um circulo, caso contrário,
+            // criara um retangulo
             if (criarCirculo) {
                 double raioAleatorio = (random.nextDouble() * 20.0) + 1.0;
 
