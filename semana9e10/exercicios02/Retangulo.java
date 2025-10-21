@@ -28,4 +28,8 @@ public class Retangulo extends Figura{
     public double calculaArea(){
         return getBase() * getAltura();
     }
+
+    public String toString(){
+        return "Base: " +getBase()+ "\nAltura: " +getAltura()+ "\nCalculo da área do retangulo: " + calculaArea();
+    }
 }

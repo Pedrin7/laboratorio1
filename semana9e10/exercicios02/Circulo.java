@@ -19,13 +19,13 @@ public class Circulo extends Figura{
     public void setRaio(double raio){this.raio = raio;}
     public double getRaio(){return raio;}
 
-    public String toString(){
-        return "Raio do circulo: " +getRaio();
-    }
-
     public double calculaArea(){
         double pi = 3.14;
         double areaCirculo = pi * (getRaio() * getRaio());
         return areaCirculo;
+    }
+
+    public String toString(){
+        return "Raio do circulo: " +getRaio()+ "\nCálculo da área do Circulo: " + calculaArea();
     }
 }
