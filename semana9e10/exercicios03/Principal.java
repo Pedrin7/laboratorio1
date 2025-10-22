@@ -101,5 +101,7 @@ public class Principal {
         }else{
             System.out.println("Aluno " + a2.getNome()+ " ficou em GRAU C!");
         }
+
+        sc.close();
     }
 }
