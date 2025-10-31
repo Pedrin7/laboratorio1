@@ -100,5 +100,6 @@ public class Teste {
         // double[] teste = {10.0, 7.5, 30.0, 9.9, 4.0};
         // e1.exercicio21(teste);
 
+        sc.close();
     }
 }
